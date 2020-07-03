@@ -286,12 +286,13 @@ Hero Section
 =============================================================
 */
 .hero {
-    background-color: #323347;
-    background-image: url(../images/bg.jpg);
-    background-repeat: no-repeat; 
     text-align: center;
-    /* object-fit: fill; */
     padding: 170px 0 130px;
+    background-color: #323347;
+    background-image: url(../images/banner.svg);
+    background-position: 0 100%;
+    background-size: contain;
+    background-repeat: no-repeat; 
 } 
 
 .hero-heading {
